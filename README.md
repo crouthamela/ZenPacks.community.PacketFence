@@ -1,4 +1,8 @@
 ZenPacks.community.PacketFence
 ==============================
 
-Adds PacketFence monitoring capabilities to Zenoss.
+This Zenoss ZenPack provides monitoring capabilities for PacketFence. Currently only Daily Guest Registrations (a running total per-day) and Guest Registration Rate (per 5 minute polling interval) are graphed.
+
+Requires SSH credentials setup to run the commands.
+
+See screenshot for example.
