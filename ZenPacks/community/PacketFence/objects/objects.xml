@@ -47,7 +47,7 @@ True
 </object>
 </tomanycont>
 <tomanycont id='graphDefs'>
-<object id='Daily Guest Registrations' module='Products.ZenModel.GraphDefinition' class='GraphDefinition'>
+<object id='PacketFence Daily Guest Registrations' module='Products.ZenModel.GraphDefinition' class='GraphDefinition'>
 <property type="int" id="height" mode="w" >
 100
 </property>
@@ -110,7 +110,7 @@ AVERAGE
 </object>
 </tomanycont>
 </object>
-<object id='Guest Registration Rate' module='Products.ZenModel.GraphDefinition' class='GraphDefinition'>
+<object id='PacketFence Guest Registration Rate' module='Products.ZenModel.GraphDefinition' class='GraphDefinition'>
 <property type="int" id="height" mode="w" >
 100
 </property>
