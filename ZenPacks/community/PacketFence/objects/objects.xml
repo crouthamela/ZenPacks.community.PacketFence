@@ -143,7 +143,7 @@ GPRINT:DiffIveNCHits:LAST:%5.2lf%s
 COMMENT:avg\:
 GPRINT:DiffIveNCHits:AVERAGE:%5.2lf%s
 COMMENT:max\:
-GPRINT:DiffIveNCHits:MAX:%5.2lf%s
+GPRINT:DiffIveNCHits:MAX:%5.2lf%s\j
 </property>
 <property type="boolean" id="hasSummary" mode="w" >
 True
