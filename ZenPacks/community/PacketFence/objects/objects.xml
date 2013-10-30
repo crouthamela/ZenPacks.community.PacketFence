@@ -139,11 +139,11 @@ CDEF:PrevIveNCHits=PREV(LastIveNCHits)
 CDEF:DiffIveNCHits=CurrentIveNCHits,PrevIveNCHits,-,0.001,+
 AREA:DiffIveNCHits#3399FF:Registrations per 5 minutes
 COMMENT:cur\:
-GPRINT:DiffIveNCHits:LAST:%5.0lf
+GPRINT:DiffIveNCHits:LAST:%5.0lf%s
 COMMENT:avg\:
-GPRINT:DiffIveNCHits:AVERAGE:%5.0lf
+GPRINT:DiffIveNCHits:AVERAGE:%5.0lf%s
 COMMENT:max\:
-GPRINT:DiffIveNCHits:MAX:%5.0lf
+GPRINT:DiffIveNCHits:MAX:%5.0lf%s
 </property>
 <property type="boolean" id="hasSummary" mode="w" >
 True
