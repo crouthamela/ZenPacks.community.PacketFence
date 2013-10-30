@@ -93,7 +93,7 @@ AREA
 False
 </property>
 <property type="string" id="format" mode="w" >
-%5.0lf%s
+%5.2lf%s
 </property>
 <property type="string" id="legend" mode="w" >
 ${graphPoint/id}
@@ -137,13 +137,13 @@ CDEF:CurrentIveNCHits=Registrations-raw
 CDEF:LastIveNCHits=PREV(CurrentIveNCHits)
 CDEF:PrevIveNCHits=PREV(LastIveNCHits)
 CDEF:DiffIveNCHits=CurrentIveNCHits,PrevIveNCHits,-,0.001,+
-AREA:DiffIveNCHits#3399FF:Registrations per 5 minutes
+AREA:DiffIveNCHits#3399FF:Registrations / 5 min
 COMMENT:cur\:
-GPRINT:DiffIveNCHits:LAST:%5.0lf%s
+GPRINT:DiffIveNCHits:LAST:%5.2lf%s
 COMMENT:avg\:
-GPRINT:DiffIveNCHits:AVERAGE:%5.0lf%s
+GPRINT:DiffIveNCHits:AVERAGE:%5.2lf%s
 COMMENT:max\:
-GPRINT:DiffIveNCHits:MAX:%5.0lf%s
+GPRINT:DiffIveNCHits:MAX:%5.2lf%s
 </property>
 <property type="boolean" id="hasSummary" mode="w" >
 True
@@ -169,7 +169,7 @@ DONTDRAW
 False
 </property>
 <property type="string" id="format" mode="w" >
-%5.0lf%s
+%5.2lf%s
 </property>
 <property type="string" id="legend" mode="w" >
 ${graphPoint/id}
