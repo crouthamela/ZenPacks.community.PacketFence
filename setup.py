@@ -3,7 +3,7 @@
 # or saved.  Do not modify them directly here.
 # NB: PACKAGES is deprecated
 NAME = "ZenPacks.community.PacketFence"
-VERSION = "1.0.3"
+VERSION = "1.0.4"
 AUTHOR = "Andrew Crouthamel"
 LICENSE = "GPLv2"
 NAMESPACE_PACKAGES = ['ZenPacks', 'ZenPacks.community']
