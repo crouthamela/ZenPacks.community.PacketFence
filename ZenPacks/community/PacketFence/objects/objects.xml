@@ -20,7 +20,7 @@ True
 3
 </property>
 <property type="string" id="commandTemplate" mode="w" >
-month=$$(date -d "$$D" '+%b'); day=$$(date -d "$$D" '+%d'); count=$$(fgrep "pf::person" /usr/local/pf/logs/packetfence.log | grep "$$month $$day" | wc -l); echo "OK|count=$$count";
+/bin/bash -c month=$$(date -d "$$D" '+%b'); day=$$(date -d "$$D" '+%d'); count=$$(grep -c "$$month $$day .*person.*modified.*pf::person" /usr/local/pf/logs/packetfence.log); printf "OK|count=%d" "$$count";
 </property>
 <property type="int" id="cycletime" mode="w" >
 300
